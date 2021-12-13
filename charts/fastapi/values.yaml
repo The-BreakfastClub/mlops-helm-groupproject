@@ -5,7 +5,7 @@
 replicaCount: 1
 
 image:
-  repository: ghcr.io/the-breakfastclub/mlops-movie
+  repository: ghcr.io/The-BreakfastClub/MLOps-Movie
   tag: latest
   pullPolicy: IfNotPresent
 
