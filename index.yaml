@@ -548,4 +548,20 @@ entries:
     urls:
     - https://github.com/helm/charts-repo-actions-demo/releases/download/example-v2-0.2.2/example-v2-0.2.2.tgz
     version: 0.2.2
+  fastapi:
+  - apiVersion: v2
+    appVersion: "1.0"
+    created: "2021-12-13T09:30:53.828811255Z"
+    description: A Helm chart for Kubernetes groupproject
+    digest: c4ea11565e987192b0ee7699410297ce048127472bd5936d5427ac231bd6a399
+    home: https://helm.sh/helm
+    maintainers:
+    - email: clubje@howest.be
+      name: Breakfast
+    name: fastapi
+    sources:
+    - https://github.com/helm/helm
+    urls:
+    - https://github.com/The-BreakfastClub/mlops-helm-groupproject/releases/download/fastapi-1.0.0/fastapi-1.0.0.tgz
+    version: 1.0.0
 generated: "2019-12-08T02:57:21.985425597Z"
