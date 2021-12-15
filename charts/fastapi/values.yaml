@@ -38,4 +38,4 @@ resources: {}
   #   memory: 128Mi
 
 nodeSelector:
-  kubernetes.io/hostname: de-preester-ewoud
+  kubernetes.io/hostname: hantson-alec
