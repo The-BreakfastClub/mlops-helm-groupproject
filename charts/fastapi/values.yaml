@@ -31,7 +31,3 @@ resources: {}
 
 nodeSelector:
   kubernetes.io/hostname: de-preester-ewoud
-
-tolerations: []
-
-affinity: {}
