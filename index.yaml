@@ -672,6 +672,21 @@ entries:
   fastapi-helm:
   - apiVersion: v2
     appVersion: "1.0"
+    created: "2021-12-15T14:35:28.609328701Z"
+    description: A Helm chart for Kubernetes groupproject
+    digest: dbce2bba8b5fb09ba0fa18c24368cfa042564abe9a53684a4acca812670c367d
+    home: https://helm.sh/helm
+    maintainers:
+    - email: clubje@howest.be
+      name: Breakfast
+    name: fastapi-helm
+    sources:
+    - https://github.com/helm/helm
+    urls:
+    - https://github.com/The-BreakfastClub/mlops-helm-groupproject/releases/download/fastapi-helm-1.0.9/fastapi-helm-1.0.9.tgz
+    version: 1.0.9
+  - apiVersion: v2
+    appVersion: "1.0"
     created: "2021-12-15T14:29:54.244581853Z"
     description: A Helm chart for Kubernetes groupproject
     digest: 0449b48b4db86c27b8cad073484758ea8d4f071bfe5eaba04f58db36ad0d7cab
