@@ -5,7 +5,7 @@ home: https://helm.sh/helm
 maintainers:
   - email: clubje@howest.be
     name: Breakfast
-name: fastapi
+name: fastapi-helm
 sources:
   - https://github.com/helm/helm
-version: 1.0.7
+version: 1.0.8
