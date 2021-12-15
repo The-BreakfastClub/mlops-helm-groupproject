@@ -10,7 +10,7 @@ image:
   pullPolicy: IfNotPresent
 
 imagePullSecrets:
-  name: ghcr-movielens
+  - name: ghcr-movielens
 nameOverride: ""
 fullnameOverride: ""
 
