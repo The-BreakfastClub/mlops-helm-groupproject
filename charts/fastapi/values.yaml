@@ -9,7 +9,7 @@ image:
   tag: master
   pullPolicy: IfNotPresent
 
-imagePullSecrets: ['ghcr-movielens']
+imagePullSecrets: [ghcr-movielens]
 nameOverride: ""
 fullnameOverride: ""
 
