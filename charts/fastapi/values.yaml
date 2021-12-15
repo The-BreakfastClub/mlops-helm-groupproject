@@ -5,11 +5,11 @@
 replicaCount: 1
 
 image:
-  repository: ghcr.io/The-BreakfastClub/MLOps-Movie
-  tag: latest
+  repository: ghcr.io/the-breakfastclub/mlops-movie
+  tag: master
   pullPolicy: IfNotPresent
 
-imagePullSecrets: []
+imagePullSecrets: ['ghcr-movielens']
 nameOverride: ""
 fullnameOverride: ""
 
@@ -30,4 +30,4 @@ resources: {}
   #   memory: 128Mi
 
 nodeSelector:
-  kubernetes.io/hostname: de-preester-ewoud
+  kubernetes.io/hostname: hantson-alec
